@@ -471,7 +471,6 @@ button {
 }
 
 .buy_bt li a {
-    /* float: left; */
     float: right;
     font-size: 12px;
     color: #252525;
