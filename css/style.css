@@ -9709,3 +9709,24 @@ h6,
 .i1{
   height:250px !important
 }
+
+@media (max-width: 768px) { /* Adjust for smaller screens */
+  .i1 {
+    width: 100%; /* Make the image width responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) { /* Adjust for medium screens */
+  .i1 {
+    width: 75%; /* Adjust width for medium screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (min-width: 1201px) { /* Adjust for larger screens */
+  .i1 {
+    width: 50%; /* Adjust width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
