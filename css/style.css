@@ -9724,9 +9724,4 @@ h6,
   }
 }
 
-@media (min-width: 1201px) { /* Adjust for larger screens */
-  .i1 {
-    width: 50%; /* Adjust width for larger screens */
-    height: auto; /* Maintain aspect ratio */
-  }
-}
+
